@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/tjce-mcp",
+  "title": "Jurisprudência TJCE",
+  "description": "Brazilian case law search for AI agents from the Ceará state court (TJCE), plus 16 other courts on t",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/tjce-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_tjce"
+    }
+  ]
+}
